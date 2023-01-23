@@ -4,7 +4,12 @@ import React,{useState} from "react";
 function App() {
   const time = new Date().toLocaleTimeString();
   const [currentTime,setCurrentTime]=useState(time);
- 
+  
+ function updateTime(){
+    const newTime= new Date().toLocaleTimeString();
+    setCurrentTime(newTime);
+  }
+
   return (
     <div>
       <h1>Digital Clock ⏰</h1>
