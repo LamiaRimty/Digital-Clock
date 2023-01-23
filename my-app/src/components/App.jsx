@@ -10,6 +10,10 @@ function App() {
     setCurrentTime(newTime);
   }
 
+  setInterval(updateTime,1000);
+
+
+  
   return (
     <div>
       <h1>Digital Clock ⏰</h1>
