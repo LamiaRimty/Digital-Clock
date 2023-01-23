@@ -8,12 +8,24 @@ body{
     text-align: center;
     margin: 200px;
   }
-.heading{
+
+  h1{
     font-size: 50px;
   }
   
-  h1{
+  .heading{
     font-size: 100px;
+    border: 2px solid burlywood;
+    background-color: antiquewhite;
+    color: teal;
+    width: 500px;
+    margin: 40px auto;
+    padding: 10px 0; 
+    /* 0 deyar por aro chepe aslo dupase */
+    border-radius: 15px;
+    box-shadow:black 0px 3px 15px 0px
+    
+
   }
 
   button {
